@@ -1,0 +1,61 @@
+/* Based on colors from PuTTY */
+:root {
+  --ansi-black: rgb(0,0,0);
+  --ansi-red: rgb(187, 0, 0);
+  --ansi-green: rgb(0, 187, 0);
+  --ansi-yellow: rgb(187, 187, 0);
+  --ansi-blue: rgb(0, 0, 187);
+  --ansi-magenta: rgb(187, 0, 187);
+  --ansi-cyan: rgb(0, 187, 187);
+  --ansi-white: rgb(187, 187, 187);
+  --ansi-bright-black: rgb(85, 85, 85);
+  --ansi-bright-red: rgb(255, 85, 85);
+  --ansi-bright-green: rgb(85, 255, 85);
+  --ansi-bright-yellow: rgb(255, 255, 85);
+  --ansi-bright-blue: rgb(85, 85, 255);
+  --ansi-bright-magenta: rgb(255, 85, 255);
+  --ansi-bright-cyan: rgb(85, 255, 255);
+  --ansi-bright-white: rgb(255, 255, 255)
+}
+
+.ansi {
+  color: var(--ansi-white);
+  background-color: var(--ansi-black);
+}
+
+.ansi-fg-black { color: var(--ansi-black); }
+.ansi-fg-red { color: var(--ansi-red); }
+.ansi-fg-green { color: var(--ansi-green); }
+.ansi-fg-yellow { color: var(--ansi-yellow); }
+.ansi-fg-blue { color: var(--ansi-blue); }
+.ansi-fg-magenta { color: var(--ansi-magenta); }
+.ansi-fg-cyan { color: var(--ansi-cyan); }
+.ansi-fg-white { color: var(--ansi-white); }
+
+.ansi-fg-bright-black, .ansi-bold.ansi-fg-black { color: var(--ansi-bright-black); }
+.ansi-fg-bright-red { color: var(--ansi-bright-red); }
+.ansi-fg-bright-green { color: var(--ansi-bright-green); }
+.ansi-fg-bright-yellow { color: var(--ansi-bright-yellow); }
+.ansi-fg-bright-blue { color: var(--ansi-bright-blue); }
+.ansi-fg-bright-magenta { color: var(--ansi-bright-magenta); }
+.ansi-fg-bright-cyan { color: var(--ansi-bright-cyan); }
+.ansi-fg-bright-white { color: var(--ansi-bright-white); }
+
+.ansi-bg-black { background-color: var(--ansi-black); }
+.ansi-bg-red { background-color: var(--ansi-red); }
+.ansi-bg-green { background-color: var(--ansi-green); }
+.ansi-bg-yellow { background-color: var(--ansi-yellow); }
+.ansi-bg-blue { background-color: var(--ansi-blue); }
+.ansi-bg-magenta { background-color: var(--ansi-magenta); }
+.ansi-bg-cyan { background-color: var(--ansi-cyan); }
+.ansi-bg-white { background-color: var(--ansi-white); }
+
+.ansi-bg-bright-black { background-color: var(--ansi-bright-black); }
+.ansi-bg-bright-red { background-color: var(--ansi-bright-red); }
+.ansi-bg-bright-green { background-color: var(--ansi-bright-green); }
+.ansi-bg-bright-yellow { background-color: var(--ansi-bright-yellow); }
+.ansi-bg-bright-blue { background-color: var(--ansi-bright-blue); }
+.ansi-bg-bright-magenta { background-color: var(--ansi-bright-magenta); }
+.ansi-bg-bright-cyan { background-color: var(--ansi-bright-cyan); }
+.ansi-bg-bright-white { background-color: var(--ansi-bright-white); }
+
